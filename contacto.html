@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+
+</head>
+<body>
+    <div class="top-left-button" onclick="location.href='inicio.html'">INICIO</div>
+    <h1>Comunicate con Nosotros</h1>
+    <form id="FormContact">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+        <br>
+        <label for="provincia">Provincia:</label>
+        <select id="provincia" name="provincia" required>
+            <option value="" selected disabled>Seleccione una provincia</option>
+            <option value="buenos_aires">Buenos Aires</option>
+            <option value="catamarca">Catamarca</option>
+            <option value="chaco">Chaco</option>
+            <option value="chubut">Chubut</option>
+            <option value="cordoba">Córdoba</option>
+            <option value="corrientes">Corrientes</option>
+            <option value="entre_rios">Entre Ríos</option>
+            <option value="formosa">Formosa</option>
+            <option value="jujuy">Jujuy</option>
+            <option value="la_pampa">La Pampa</option>
+            <option value="la_rioja">La Rioja</option>
+            <option value="mendoza">Mendoza</option>
+            <option value="misiones">Misiones</option>
+            <option value="neuquen">Neuquén</option>
+            <option value="rio_negro">Río Negro</option>
+            <option value="salta">Salta</option>
+            <option value="san_juan">San Juan</option>
+            <option value="san_luis">San Luis</option>
+            <option value="santa_cruz">Santa Cruz</option>
+            <option value="santa_fe">Santa Fe</option>
+            <option value="santiago_del_estero">Santiago del Estero</option>
+            <option value="tierra_del_fuego">Tierra del Fuego</option>
+            <option value="tucuman">Tucumán</option>
+        </select>
+        <br>
+        <label for="localidad">Localidad:</label>
+        <select id="localidad" name="localidad" required>
+            <option value="" selected disabled>Seleccione una localidad</option>
+            <option value="olavarria">Olavarria</option>
+        </select>
+        <br>
+        <label for="codigo_postal">Código Postal:</label>
+        <input type="text" id="codigo_postal" name="codigo_postal" required>
+        <br>
+        <button type="submit"  class="submit"> Enviar </button>
+    </div>
+
+    <script src="contacto.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</body>
+</html> 
+

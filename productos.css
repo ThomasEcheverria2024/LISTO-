@@ -1,0 +1,112 @@
+/* Estilo  contenedor de items */
+.contenedor-items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 20px; 
+    padding: 20px; 
+    background-color: #c8ae07; 
+    border: 2px solid #ddd; 
+    border-radius: 8px; 
+}
+
+
+.item {
+    background-color: #fafafd; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.item figure {
+    margin: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+}
+
+
+.item img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-bottom: 1px solid #ddd; 
+}
+
+.info-producto {
+    margin-top: 10px; 
+}
+
+
+.info-producto input,
+.info-producto button {
+    margin-top: 10px; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://png.pngtree.com/background/20230520/original/pngtree-d-model-of-a-supermarket-with-shelves-of-foods-for-sale-picture-image_2669917.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+.carrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    background-color:#c8ae07;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.carrito img {
+    width: 40px;
+    height: 40px;
+}
+.carrito-fondo {
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    background-color: white;
+    justify-content: space-between;
+}
+.carrito-fondo span {
+    height: 50px;
+    border-radius: 8px;
+    font-size: 18px;
+    align-content: center;
+    padding: auto;
+}
+/* boton inicio */
+.top-left-button {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    top: 10px;
+    left: 10px;
+    width: 8%;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color:rgb(255, 168, 75);
+    box-shadow: 2px 2px 10px rgb(250, 250, 250);
+    transition: transform 0.5s;
+}
+.top-left-button:hover {
+    transform: scale(1.2);
+}

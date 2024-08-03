@@ -1,0 +1,120 @@
+body {
+    width: 100%;
+    height: max-content;
+    background-position: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://png.pngtree.com/background/20230520/original/pngtree-d-model-of-a-supermarket-with-shelves-of-foods-for-sale-picture-image_2669917.jpg');
+    overflow-x: hidden;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    font-family: 'arial';
+    font-size: 70px;
+    color: white;
+    text-shadow:3px 3px 6px black;
+}
+input { 
+    display:flex;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 10px;
+    width: 30%;
+    justify-content: center;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: 2px 2px 10px black;
+    transition: transform 0.5s;
+} 
+input:hover {
+    transform: scale(1.3);
+}
+label { 
+    display:flex;
+    margin: auto;
+    width: 30%;
+    justify-content: center;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color:rgb(29, 63, 64);
+    box-shadow: 10px 10px 15px black;
+    transition: transform 0.5s;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+}
+placeholder {
+    color: white;
+}
+select {
+    display:flex;
+    margin: auto;
+    width: 30%;
+    justify-content: center;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color:transparent;
+    box-shadow: 10px 10px 15px black;
+    transition: transform 0.5s;
+    color: white;
+    margin-top: 10px;
+}
+select:hover {
+    transform: scale(1.2);
+}
+option {
+    background-color: rgb(29, 63, 64);
+    color: white;
+}
+
+.submit {
+    display: flex;
+    width: 22%;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color:rgb(58, 40, 60);
+    box-shadow: 2px 2px 10px black;
+    transition: transform 0.5s;
+}
+.submit:hover {
+    transform: scale(1.2);
+}
+.top-left-button {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    top: 10px;
+    left: 10px;
+    width: 8%;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color:rgb(255, 168, 75);
+    box-shadow: 2px 2px 10px rgb(250, 250, 250);
+    transition: transform 0.5s;
+}
+.top-left-button:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+

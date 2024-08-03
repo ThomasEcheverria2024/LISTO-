@@ -1,0 +1,120 @@
+body {
+    background-image: url('https://png.pngtree.com/background/20230520/original/pngtree-d-model-of-a-supermarket-with-shelves-of-foods-for-sale-picture-image_2669917.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+}
+
+.btn {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    cursor: pointer;
+    position: relative;
+    opacity: 0.6;
+}
+
+
+h1 {
+    width: 40%;
+    height: auto;
+    display: flex;
+    position: relative;
+    background: linear-gradient(135deg, #fa4416, #fa6d01);
+    opacity: 0.9;
+    font-family: monospace;
+    font-size: 100px;
+    color: whitesmoke; 
+    text-align: center;
+    text-shadow: 4px 4px 8px black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+span {
+    color: #ff7e5f;
+    font-family: monospace;
+    padding-left: 20px;
+}
+
+p { 
+    background: linear-gradient(135deg, #fa4416, #fa6d01);
+    opacity: 0.9;
+    color: #fbfbf9; 
+    width: 70%;
+    height: 200px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    }
+    .text-container {
+        display: flex;
+    }
+    
+    .zoom-text {
+        display: inline-block;
+        font-size: 30px;
+        animation: zoomIn 0.8s forwards;
+    }
+    
+    .zoom-text efecto {
+        display: inline;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        opacity: 0;
+        transform: scale(0.8);
+        animation: zoomLetter 2s forwards;
+    }
+    
+    @keyframes zoomIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+    
+    @keyframes zoomLetter {
+        0% { opacity: 0; transform: scale(0.5); }
+        100% { opacity: 1; transform: scale(0.1); }
+    }
+
+.navigation {
+    width: 100px;
+    height: auto;
+    align-self: center;
+    font-size: 20px;
+    display: none;
+    position: absolute;
+    top: 10px; 
+    transition: transform 0.5s;
+}
+.navigation:hover {
+    transform: scale(1.1);
+}
+.navigation a {
+    display: block;
+    color: #070606;
+    border: none;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 2px 2px 5px black;
+    align-items: center;
+    
+}
+
+.navigation.show {
+    display: flex;
+    flex-direction: row;
+}
+
+
+img {
+    display: block;
+    margin: 40px 0 0 0; 
+    width: 15%; 
+    height: 20%; 
+    object-fit: cover;
+
+}
